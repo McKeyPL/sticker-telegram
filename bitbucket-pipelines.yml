@@ -10,5 +10,5 @@ pipelines:
     - step:
         script:
           - echo "Everything is awesome!"
-          - zip -r Images.zip .
+          - tar -zcvf image.tgz .
           - echo "Ziped!"
